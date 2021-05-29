@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './Api'
+import Register from './Register'
 import './index.css';
 
-ReactDOM.render(<App />, document.getElementById('root'))
+ReactDOM.render(<Register />, document.getElementById('root'))

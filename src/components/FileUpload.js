@@ -64,7 +64,7 @@ class FileUpload extends Component {
     render() {
         return (
             <form>
-                <label htmlFor="file">请输入:</label>
+                <label htmlFor="file">{this.props.label}</label>
                 <input type="file" id="file" onChange={this.handleChange}/>
                 <input type="button" value="Submit" onClick={this.submitForm}/>
             </form>
